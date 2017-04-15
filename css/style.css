@@ -1,0 +1,319 @@
+.container1{
+    color: black;
+    height: 600px;
+    margin-top: -20px;
+    padding-top: 8%;
+    text-align: center;
+    background-image:url("../img/typewriter.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 30% 20%;
+}
+
+/* Flèche haut de page (navbar) */
+
+.gotop{
+    position: absolute;
+    margin-left: -30%;
+}
+
+
+/*
+goTop:hover{
+    background-color: blue;
+}
+*/
+
+/* Bouton commencer, bonne change */
+
+.btn {
+    color: black;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    line-height: 3;
+    transition: all 200ms ease-in-out;
+}
+
+.btn:before {
+    content: "";
+    position: absolute;
+    background: deeppink;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    transition: top 200ms ease-in-out 200ms;
+    z-index: 10;
+}
+
+.btn:hover {
+    color: grey;
+}
+
+.btn:hover:before {
+    top: 0;
+}
+
+.btn:hover .top {
+    top: -50px;
+}
+
+.btn:hover .bottom {
+    top: 0;
+}
+
+.content {
+    transition: top 400ms;
+}
+
+.content.top {
+    top: 0;
+}
+
+.content.bottom {
+    top: -50px;
+}
+
+.btn .content {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+
+.container2{
+    background-color: dodgerblue;
+    height: 495px;
+    margin-top: -20px;
+    padding-left: 10%;
+    padding-top: 1%;
+    color: white;
+}
+
+/* Bloc noir */
+
+.row2{
+    margin-right: -30px;
+    margin-left: -30px;
+    background-color: black;
+    height: 215px;
+}
+
+/* Police style */
+
+.font{
+    font-family : "Bookman Old Style";
+    font-size : 150%;
+}
+
+
+.container3{
+    height: 670px;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+/* Changement de couleur du texte */
+
+.couleur{
+    color: deeppink;
+    animation: changement 3s infinite;
+
+}
+
+@keyframes changement {
+    0%, 100% {
+        color: white;
+    }
+    50% {
+        color: deeppink;
+
+    }
+}
+
+.row3{
+    height: 330px;
+    background-color: white;
+    color: white;
+    padding-top: 1%;
+}
+
+.col-lg-offset-1 {
+    height: 330px;
+    background-color: black;
+    padding-top: 1%;
+}
+
+.positiontext{
+    color: white;
+    padding-left: 5%;
+}
+
+.container4{
+    background-color: dodgerblue;
+    height: 908px;
+    color: white;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+/* Logo IIM */
+
+.iim{
+    position: absolute;
+    display: block;
+    animation: iim 2s ease-in-out infinite;
+}
+
+@keyframes iim{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+
+    100%{
+        transform: rotate(-1turn);
+        transform-origin: center;
+    }
+}
+
+.ldvc{
+    position: absolute;
+    display: block;
+    animation: ldvc 1s ease-in-out infinite;
+    transform-origin: center;
+}
+
+@keyframes ldvc{
+    0%, 100%{
+        opacity: 1;
+    }
+
+    50%{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* Position du logo svg de l'IIM dans le cadre noir */
+
+.svgIIM{
+    padding-left: 33%;
+    padding-top: 7%;
+}
+
+.row4{
+    height: 545px;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 15%;
+}
+
+.container5{
+    height: 670px;
+    background-color: lightgrey;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: "Bookman Old Style";
+    font-size: 180%;
+}
+
+/* Couleur des points de la liste */
+
+ul > li{
+    color: deeppink;
+}
+
+ul > li > span
+{
+    color: black;
+}
+
+.container6{
+    height: 850px;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: "Bookman Old Style";
+    font-size: 180%;
+    background-image:url("../img/contact.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 255, 0.1);
+
+}
+
+textarea{
+    height: 150px;
+    width: 38%;
+}
+
+/* Texte dans l'input qui se déplace en changeant de couleur */
+
+.form{
+    position: relative;
+}
+
+.form-input{
+    position: absolute;
+
+}
+
+.form-input:focus + .form-label{
+    color:deeppink;
+    transform: scale(0.5);
+    transition-duration: 1s;
+    transform-origin : 0 -30px;
+}
+
+.form-label{
+    position: absolute;
+}
+
+.nom{
+    padding-left: 20%;
+}
+
+.email{
+    padding-top: 10%;
+}
+
+.emailinput{
+    width: 38%;
+}
+
+.message{
+    padding-top: 10%;
+}
+
+input{
+    height: 100px;
+}
+
+.btnenvoyer{
+    padding-top: 10%;
+    padding-left: 30%;
+}
+
+
+.container7{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-size: 150%;
+    padding-top: 2%;
+
+}
+
+

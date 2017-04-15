@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Site immersif</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div id="ancre">
+</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+            <!-- Logo site immersif svg (css dans le html) -->
+
+            <a class="navbar-brand" href="#"><svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg">
+                    <style>.cls-1{fill:#1ba1e2;}.cls-2{fill:#ff0097;}.cls-3,.cls-6{font-size:9px;}.cls-3,.cls-7{font-family:Lato-Light, Lato Light;}.cls-4{letter-spacing:-0.01em;}.cls-5{letter-spacing:0em;}.cls-10,.cls-6,.cls-9{font-family:Lato-Regular, Lato Regular;}.cls-6{letter-spacing:0.01em;}.cls-7{font-size:12px;}.cls-8{letter-spacing:-0.01em;}.cls-9{letter-spacing:0.01em;}
+                    </style>
+                <polygon class="cls-1" points="26 26 13 26 13 0 21.19 0 26 0 26 9.62 26 26"/>
+                <circle class="cls-2" cx="13" cy="13" r="13"/>
+                <polygon class="cls-1" points="47 0 60 0 60 26 51.81 26 47 26 47 16.38 47 0"/>
+                <circle class="cls-2" cx="60" cy="13" r="13"/>
+                <path class="cls-1" d="M85,28V52H66V28H85m1-1H65V53H86V27Z" transform="translate(-39 -27)"/>
+                <text class="cls-3" transform="translate(20.33 11.83)">Si
+                    <tspan class="cls-4" x="6.54" y="0">t</tspan>
+                    <tspan class="cls-5" x="9.47" y="0">e</tspan>
+                </text>
+                <text class="cls-6" transform="translate(25.33 20.67)">I
+                    <tspan class="cls-5" x="2.24" y="0">mmersif</tspan>
+                </text></svg></a>
+        </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Cours</a></li>
+                <li><a href="#">Rendu</a></li>
+                <li><a href="#">Contact</a></li>
+
+                <!-- Flèche haut de page svg (css dans le html) -->
+
+                <li> <a href="#ancre"><svg class="gotop" id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg">
+                    <rect
+                            x="0.71"
+                            y="19.4"
+                            width="16"
+                            height="2"
+                    />
+                    <rect
+                            x="59"
+                            y="48"
+                            width="20"
+                            height="2"
+                            transform="translate(-40.29 80.4) rotate(-90)"
+                    />
+                    <polygon points="16 10.11 8 2.11 8.71 1.4 8.71 0 9.41 0.69 9.71 0.99 17.41 8.69 16 10.11"/>
+                    <polygon points="0 8.69 8 0.69 8.71 0 9.41 2.11 1.41 10.11 0 8.69"/>
+                </svg></a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container1">
+    <h1>Site immersif</h1>
+    <h2>Promo 2020 - A2</h2>
+    <h3>Option Web et e-business</h3>
+
+    <!-- Bouton qui change -->
+
+    <a href="#" title="Commencer le cours" class="btn btn-lg">
+        <span class="top content">Commencer le cours</span>
+        <span class="bottom content">Bonne chance </span>
+    </a>
+
+</div>
+<div class="container2">
+    <h1>Transition</h1>
+    <p>Créer un effet de <b>transition</b> entre plusieurs états d'un même élément.</p>
+
+    <div class="container">
+        <div class="row2">
+            <div class="col-lg-6">
+                <p class="font">.element {
+            </br>transition-property : [propriété];
+            </br>transition-duration : [durée];
+            </br>transition-timing-function : [effet];
+            </br>transition-delay : [retard];
+            </br>}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container3">
+    <h1>Keyframes & Animations</h1>
+    <p>Créer une réelle animation sur un élément uniquement en CSS.</br>
+        Ces 2 propriétés CSS ne peuvent  pas s'utiliser <b>l'une sans l'autre</b>
+    </p>
+    <div class="row3">
+
+        <!-- Texte qui change de couleur (classe couleur) -->
+
+        <div class="col-lg-3 col-lg-offset-1 couleur">
+            <p class="font">@keyframes monAnimation {
+            </br>0%, 100%{
+            </br>background-color:
+            </br>white;
+            </br>}
+            </br>50%{
+            </br>background-color:
+            </br>pink;
+            </br>}
+            </br>}
+            </p>
+        </div>
+
+        <!-- Texte qui change de couleur (classe couleur) -->
+
+        <div class="col-lg-5 col-lg-offset-1 couleur">
+            <p class="font couleur">.element{
+            <p class="positiontext font couleur">animation-name:[nomDuKeyframe];
+            </br>animation-duration:[durée];
+            </br>animation-timing-function:[effet];
+            </br>animation-delay:[retard];
+            </br>animation-iteration-count:[iteration];
+            </br>animation-direction:[direction];
+            </br>animation-fill-mode:[spécificitéFin];
+            </br>animation-play-state:[état];
+            </br></p>}
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container4">
+    <h1>SVG</h1>
+    <p>Un fichier SVG est un fichier image dont les éléments qui le composent peuvent s'animer.</p>
+    <p>Un fichier SVG n'est pas dégradé même quand il est zoomé.</p>
+
+    <!-- SVG logo IIM (css dans le html) -->
+
+    <div class="row4">
+        <svg class="svgIIM"
+                version="2"
+                xmlns="http://www.w3.org/2000/svg"
+                width="700"
+                height="700">
+
+            <circle cx="150"
+                    cy="200"
+                    r="100"
+                    fill="orange"/>
+            </circle>
+
+            <g class="iim">
+                <!--Premier I !-->
+                <rect width="15"
+                      height="10"
+                      rx="2"
+                      fill="white"
+                      x="140"
+                      y="150"/>
+
+                <rect width="15"
+                      height="40"
+                      rx="2"
+                      fill="white"
+                      x="140"
+                      y="165"/>
+
+                <!--Deuxieme I !-->
+                <rect width="15"
+                      height="10"
+                      rx="2"
+                      fill="white"
+                      x="160"
+                      y="150"/>
+
+                <rect width="15"
+                      height="40"
+                      rx="2"
+                      fill="white"
+                      x="160"
+                      y="165"/>
+
+                <!--Barre M !-->
+
+                <rect width="15"
+                      height="50"
+                      rx="2"
+                      fill="white"
+                      x="180"
+                      y="155"/>
+
+                <rect width="15"
+                      height="50"
+                      rx="2"
+                      fill="white"
+                      x="215"
+                      y="155"/>
+
+                <rect width="30"
+                      height="30"
+                      rx="2"
+                      fill="white"
+                      x="190"
+                      y="155"/>
+            </g>
+
+            <g class="ldvc">
+
+                <text x="80"
+                      y="250"
+                      fill="white"
+                      font-size="20">
+                    LÉONARD </text>
+
+                <text x="87"
+                      y="268"
+                      fill="white"
+                      font-size="20">
+                    DE VINCI </text>
+            </g>
+        </svg>
+    </div>
+</div>
+
+<div class="container5">
+    <h1>Rendu</h1>
+    <p>Intégrer cette maquette</p>
+
+    <ul>
+        <li><span>HTML/CSS propres & commentés</span></li>
+        <li><span>Animation CSS</span></li>
+        <li><span>Picto SVG</span></li>
+        <li><span>JS facultatif</span></li>
+    </ul>
+    <p>Zip à envoyer avant <b><u>le vendredi 14 avril 23h59 à</u></b></p>
+    <ul>
+        <li><span><b><u>luk.attali@gmail.com</u></b></span></li>
+    </ul>
+    <p>Nomenclature du zip et de l'objet du mail :</p>
+    <ul>
+        <li><span>[IIM-A2-SI]Prenom_Nom.zip</span></li>
+    </ul>
+</div>
+
+<div class="container6">
+    <h1>Contact</h1>
+
+    <!-- Formulaire contact, animation css, pas tout à fait responsive -->
+
+    <form action="" class="form">
+        <div class="form-field">
+            <input type="text" class="form-input">
+            <label class="form-label">Prénom*</label>
+        </div>
+        <div class="form-field nom">
+            <input type="text" class="form-input">
+            <label class="form-label">Nom*</label>
+        </div>
+        <div class="form-field email">
+            <input type="text" class="form-input emailinput">
+            <label class="form-label">Email*</label>
+        </div>
+        <div class="form-field message">
+            <textarea type="text" class="form-input"></textarea>
+            <label class="form-label">Message*</label>
+        </div>
+        <div class="btnenvoyer">
+        <a href="#" title="Envoyer" class="btn btn-lg">
+            <span class="top content">Envoyer</span>
+            <span class="bottom content">Envoyer </span>
+        </a>
+        </div>
+    </form>
+</div>
+
+<div class="container7">
+
+    <!-- Footer -->
+
+    <p>2017 ©Aylay</p>
+
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
